@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Komunitní a tréninkový prostor Vlastina v bývalé vojenské základně, vybudovaný divadelním spolkem Blackout Paradox. Místo pro tréninky, workshopy, akce a setkávání.">
+    <title>Vlastina – Komunitní a tréninkový prostor</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background overlay for industrial texture/atmosphere -->
+    <div class="industrial-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo-container" id="nav-logo-btn">
+                <img src="resources/images/vlastina_logo.jpg" alt="Vlastina Logo" class="logo-img">
+                <span class="logo-text">VLASTINA</span>
+            </a>
+
+            <button class="mobile-nav-toggle" aria-label="Otevřít menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#o-vlastine" class="nav-link" data-target="o-vlastine">O Vlastině</a></li>
+                    <li><a href="#nasledujici-akce" class="nav-link" data-target="nasledujici-akce">Následující akce</a>
+                    </li>
+                    <li><a href="#pravidelne-akce" class="nav-link" data-target="pravidelne-akce">Pravidelné akce</a>
+                    </li>
+                    <li><a href="#rezervace" class="nav-link" data-target="rezervace">Rezervace</a></li>
+                    <li><a href="#prakticke-info" class="nav-link" data-target="prakticke-info">Praktické info</a></li>
+                    <li><a href="#kontakty" class="nav-link" data-target="kontakty">Kontakty</a></li>
+                    <li><a href="#galerie" class="nav-link" data-target="galerie">Galerie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="content-wrapper">
+        <!-- Section: Úvod -->
+        <section id="uvod" class="tab-section active">
+            <div class="hero-section">
+                <div class="hero-image-container">
+                    <img src="resources/images/Homepage_main_image.png" alt="Prostor Vlastina" class="hero-image">
+                    <div class="hero-backdrop-glow"></div>
+                </div>
+                <div class="hero-content glass-panel">
+                    <span class="badge">Komunitní & tréninkový prostor</span>
+                    <h1>Vlastina</h1>
+                    <p class="subtitle">Kreativní prostor v bývalé vojenské základně</p>
+                    <p class="description">
+                        Tréninková hala pro performery a nezávislé komunitní centrum v Praze 6.
+                    </p>
+                    <div class="hero-features">
+                        <div class="feature-tag"><i class="fa-solid fa-person-walking"></i> Taneční sál</div>
+                        <div class="feature-tag"><i class="fa-solid fa-users"></i> Kapacita až 40 osob</div>
+                        <div class="feature-tag"><i class="fa-solid fa-kitchen-set"></i> Plně vybavené zázemí</div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#rezervace" class="btn btn-primary" data-target="rezervace">Rezervovat prostor</a>
+                        <a href="#o-vlastine" class="btn btn-secondary" data-target="o-vlastine">Zjistit více</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: O Vlastině -->
+        <section id="o-vlastine" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O Vlastině</h2>
+                    <p class="section-subtitle">Jak vznikl prostor s duší a historií</p>
+                </div>
+
+                <div class="grid col-2">
+                    <div class="card glass-panel text-content">
+                        <h3>Co je Vlastina?</h3>
+                        <p class="lead">
+                            Vlastina je unikátní tréninkový a společenský prostor vybudovaný divadelním spolkem
+                            <strong>Blackout Paradox</strong>. Nachází se v autentickém prostředí bývalé vojenské
+                            základny a slouží jako zázemí pro pohybové umělce, tanečníky, performery i pro širokou
+                            veřejnost formou workshopů, akcí a komunitních setkání.
+                        </p>
+                        <p>
+                            Původně vojenský objekt jsme přetvořili v moderní zázemí, které primárně slouží tréninkům
+                            fyzického divadla, tance, nového cirkusu a akrobacie. Druhotně funguje jako otevřené
+                            komunitní centrum pro různorodé vzdělávací a společenské akce.
+                        </p>
+                        <p>
+                            Sál má rozlohu vhodnou pro trénink až 20 aktivně cvičících osob na taneční podlaze, při
+                            společenských událostech a oslavách pohodlně pojme až 40 sedících či stojících hostů.
+                        </p>
+                        <h3>Kdo za tím stojí?</h3>
+                        <p>
+                            Za celou myšlenkou a realizací stojí umělecká skupina <strong>Blackout Paradox</strong>.
+                            Věnujeme se tvorbě fyzického divadla s prvky fireshow, světelného divadla a akrobacie.
+                            Prostor jsme vybudovali vlastníma rukama, abychom dali vzniknout místu pro svobodnou tvorbu
+                            a setkávání. Více o naší tvorbě najdete na <a href="https://blackoutparadox.com/"
+                                target="_blank" rel="noopener" class="text-link">Blackout Paradox</a>.
+                        </p>
+                    </div>
+
+                    <div class="gallery-showcase">
+                        <div class="gallery-main-img-container glass-panel">
+                            <img src="resources/images/Vlastina_construction.jpg" alt="Vlastina Rekonstrukce"
+                                class="gallery-main-img" id="about-gallery-display">
+                        </div>
+                        <div class="gallery-thumbs">
+                            <img src="resources/images/Vlastina_construction.jpg" alt="Stavba 1" class="thumb active"
+                                onclick="changeAboutImage(this)">
+                            <img src="resources/images/Vlastina_construction_01.jpg" alt="Stavba 2" class="thumb"
+                                onclick="changeAboutImage(this)">
+                            <img src="resources/images/Vlastina_construction_02.jpg" alt="Stavba 3" class="thumb"
+                                onclick="changeAboutImage(this)">
+                            <img src="resources/images/Vlastina_construction_03.jpg" alt="Stavba 4" class="thumb"
+                                onclick="changeAboutImage(this)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Následující akce -->
+        <section id="nasledujici-akce" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Následující akce</h2>
+                    <p class="section-subtitle">Jednorázové události, workshopy a představení</p>
+                </div>
+
+                <div class="events-grid">
+                    <!-- Placeholder Event 1 -->
+                    <div class="card glass-panel event-card">
+                        <div class="event-date">
+                            <span class="day">12</span>
+                            <span class="month">Zář</span>
+                        </div>
+                        <div class="event-details">
+                            <span class="event-badge">Workshop</span>
+                            <h3>Akrobacie a Fyzické Divadlo</h3>
+                            <p class="event-time"><i class="fa-regular fa-clock"></i> 10:00 - 16:00</p>
+                            <p>Intenzivní jednodenní workshop zaměřený na základy partnerské akrobacie a výrazové
+                                prostředky fyzického divadla pod vedením lektorů z Blackout Paradox.</p>
+                            <div class="event-footer">
+                                <span class="price">Cena: 800 Kč</span>
+                                <a href="#kontakty" class="btn btn-sm btn-outline" data-target="kontakty">Přihlásit
+                                    se</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Event 2 -->
+                    <div class="card glass-panel event-card">
+                        <div class="event-date">
+                            <span class="day">26</span>
+                            <span class="month">Zář</span>
+                        </div>
+                        <div class="event-details">
+                            <span class="event-badge">Představení</span>
+                            <h3>Komunitní večer & Fireshow</h3>
+                            <p class="event-time"><i class="fa-regular fa-clock"></i> 18:00 - 22:00</p>
+                            <p>Sousedské setkání spojené s ukázkami naší práce, drobným občerstvením a večerním
+                                vystoupením pod širým nebem v areálu bývalé základny.</p>
+                            <div class="event-footer">
+                                <span class="price">Vstupné dobrovolné</span>
+                                <a href="#kontakty" class="btn btn-sm btn-outline" data-target="kontakty">Více info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="archive-box glass-panel text-center">
+                    <h3>Hledáte starší akce?</h3>
+                    <p>Historii našich minulých událostí a proběhlých workshopů si můžete prohlédnout v našem archivu.
+                    </p>
+                    <button class="btn btn-secondary btn-sm" id="btn-show-archive">Zobrazit archiv akcí</button>
+                </div>
+
+                <!-- Hidden Event Archive Container (Toggled via JS) -->
+                <div id="events-archive" class="archive-container hidden">
+                    <div class="section-header small">
+                        <h3>Archiv proběhlých akcí</h3>
+                    </div>
+                    <div class="archive-list">
+                        <div class="archive-item glass-panel">
+                            <span class="archive-date">15. Června 2026</span>
+                            <h4>Letní tréninkový kemp cirkusových umění</h4>
+                            <p>Týdenní intenzivní kemp pro performery se zaměřením na závěsnou akrobacii a pohybový
+                                výzkum.</p>
+                        </div>
+                        <div class="archive-item glass-panel">
+                            <span class="archive-date">2. Května 2026</span>
+                            <h4>Jarní sousedská slavnost Vlastina</h4>
+                            <p>První oficiální otevření dvora pro sousedy s dětským programem, dílničkami a grilováním.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Pravidelné akce -->
+        <section id="pravidelne-akce" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Pravidelné akce</h2>
+                    <p class="section-subtitle">Pravidelné tréninky a kurzy otevřené pro veřejnost</p>
+                </div>
+
+                <div class="grid col-2">
+                    <!-- Class 1 -->
+                    <div class="card glass-panel class-card">
+                        <div class="class-header">
+                            <div class="class-title-area">
+                                <span class="day-tag">Každé úterý</span>
+                                <h3>Tréninky nového cirkusu</h3>
+                            </div>
+                            <span class="time-badge">18:00 - 20:00</span>
+                        </div>
+                        <p>Pravidelný otevřený trénink zaměřený na žonglování, pozemní akrobacii a rozvoj pohybových
+                            dovedností. Vhodné pro začátečníky i pokročilé.</p>
+                        <div class="class-footer">
+                            <div class="organizer-info">
+                                <strong>Organizátor:</strong> Blackout Paradox
+                                <span><i class="fa-regular fa-envelope"></i> info@blackoutparadox.com</span>
+                            </div>
+                            <span class="price-tag">150 Kč / lekce</span>
+                        </div>
+                    </div>
+
+                    <!-- Class 2 -->
+                    <div class="card glass-panel class-card">
+                        <div class="class-header">
+                            <div class="class-title-area">
+                                <span class="day-tag">Každý čtvrtek</span>
+                                <h3>Současný tanec & Flow Arts</h3>
+                            </div>
+                            <span class="time-badge">17:30 - 19:30</span>
+                        </div>
+                        <p>Lekce zaměřené na pohyb na zemi (floorwork), improvizaci a integraci práce s objektem.
+                            Hledání vlastního pohybového vyjádření.</p>
+                        <div class="class-footer">
+                            <div class="organizer-info">
+                                <strong>Organizátor:</strong> Michaela (Lektorka)
+                                <span><i class="fa-regular fa-envelope"></i> misa.dance@email.cz</span>
+                            </div>
+                            <span class="price-tag">200 Kč / lekce</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Rezervace -->
+        <section id="rezervace" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Rezervace</h2>
+                    <p class="section-subtitle">Chcete u nás trénovat nebo uspořádat akci?</p>
+                </div>
+
+                <div class="reservation-layout">
+                    <!-- 1. Kalendář obsazenosti (On Top) -->
+                    <div class="calendar-wrapper glass-panel">
+                        <div class="calendar-header-bar">
+                            <h3>Kalendář obsazenosti</h3>
+                            <span class="live-indicator"><span class="dot"></span> Aktuální stav</span>
+                        </div>
+                        <!-- Responsive Google Calendar Embed Container -->
+                        <div class="calendar-container">
+                            <!-- In a real deployment, the Google Calendar link goes here. Using a clean visual placeholder iframe -->
+                            <div class="calendar-placeholder">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <p>Zde bude integrován Google Kalendář</p>
+                                <span class="placeholder-note">Pro integraci kalendáře bude použit embed kód z Google
+                                    Calendar API.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Jak provést rezervaci (Middle) -->
+                    <div class="card glass-panel booking-notice-card">
+                        <h3>Jak provést rezervaci?</h3>
+                        <p class="booking-guide-text">
+                            Prohlédněte si obsazenost v kalendáři výše. Pokud je vámi vybraný termín volný, kontaktujte
+                            nás na e-mailu
+                            <a href="mailto:rezervace@vlastina.cz"
+                                class="contact-highlight-link">rezervace@vlastina.cz</a>
+                            (nebo využijte kontaktní údaje v sekci <a href="#kontakty" class="text-link"
+                                data-target="kontakty">Kontakty</a>)
+                            s popisem vaší akce, požadovaným datem a časovým rozmezím.
+                        </p>
+                    </div>
+
+                    <!-- 2.5 Ceník pronájmu (Middle-Below) -->
+                    <div class="card glass-panel booking-price-card">
+                        <h3>Ceník pronájmu</h3>
+                        <div class="price-grid">
+                            <div class="price-card-item">
+                                <h4>Individuální trénink</h4>
+                                <span class="price-value">150 Kč <small>/ hod</small></span>
+                            </div>
+                            <div class="price-card-item">
+                                <h4>Skupinový kurz / workshop</h4>
+                                <span class="price-value">300 Kč <small>/ hod</small></span>
+                            </div>
+                            <div class="price-card-item">
+                                <h4>Celodenní akce (víkend)</h4>
+                                <span class="price-value">2 500 Kč <small>/ den</small></span>
+                            </div>
+                        </div>
+                        <p class="price-note">* Ceny jsou orientační a mohou se lišit podle náročnosti akce a spotřeby
+                            energií. Pro neziskové projekty nabízíme individuální slevy.</p>
+                    </div>
+
+                    <!-- 3. Pravidla užívání prostoru (Bottom) -->
+                    <div class="card glass-panel booking-rules-card">
+                        <h3>Pravidla užívání prostoru</h3>
+                        <div class="rules-grid">
+                            <div class="rule-item">
+                                <i class="fa-solid fa-circle-check rule-icon"></i>
+                                <div>
+                                    <h4>Šetrnost k podlaze</h4>
+                                    <p>Na taneční podlahu je povolen vstup pouze v čisté sálové obuvi nebo naboso. Žádné
+                                        podpatky či venkovní obuv.</p>
+                                </div>
+                            </div>
+                            <div class="rule-item">
+                                <i class="fa-solid fa-circle-check rule-icon"></i>
+                                <div>
+                                    <h4>Pořádek a čistota</h4>
+                                    <p>Po skončení pronájmu je nutné uvést kuchyňku, sál i sociální zařízení do
+                                        původního čistého stavu.</p>
+                                </div>
+                            </div>
+                            <div class="rule-item">
+                                <i class="fa-solid fa-circle-check rule-icon"></i>
+                                <div>
+                                    <h4>Noční klid</h4>
+                                    <p>Vzhledem k umístění v areálu prosíme o dodržování rozumné hladiny hluku ve
+                                        večerních hodinách (po 22:00).</p>
+                                </div>
+                            </div>
+                            <div class="rule-item">
+                                <i class="fa-solid fa-circle-check rule-icon"></i>
+                                <div>
+                                    <h4>Zákaz kouření</h4>
+                                    <p>V celém vnitřním prostoru Vlastiny platí přísný zákaz kouření a manipulace s
+                                        otevřeným ohněm.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Praktické info -->
+        <section id="prakticke-info" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Praktické informace</h2>
+                    <p class="section-subtitle">Vše, co potřebujete vědět před návštěvou</p>
+                </div>
+
+                <div class="practical-info-layout">
+                    <!-- 1. Vybavení & Zázemí (On Top) -->
+                    <div class="card glass-panel amenities-card-full">
+                        <h3>Vybavení a zázemí</h3>
+                        <div class="amenities-grid">
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Taneční podlaha (baletizol)</span>
+                            </div>
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Hudební aparatura (reproduktory)</span>
+                            </div>
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Dětský koutek stylizovaný jako hrad</span>
+                            </div>
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Kuchyňka (myčka, trouba, mikrovlnka, lednice)</span>
+                            </div>
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Odpočinková zóna vedle kuchyňky</span>
+                            </div>
+                            <div class="amenity-item">
+                                <i class="fa-solid fa-check check-icon"></i>
+                                <span>Toalety na stejném patře</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Orientační plánek (Bottom) -->
+                    <div class="card glass-panel plan-card-full">
+                        <h3>Orientační plánek</h3>
+                        <div class="plan-image-wrapper">
+                            <img src="resources/images/Vlastina_space_layout.JPG"
+                                alt="Orientační plánek prostoru Vlastina" class="plan-image"
+                                onclick="openLightbox(this.src)">
+                        </div>
+                        <p class="plan-note">* Kliknutím na plánek jej zvětšíte.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Kontakty -->
+        <section id="kontakty" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Kontakty</h2>
+                    <p class="section-subtitle">Kde nás najdete a jak nás kontaktovat</p>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Contact info details -->
+                    <div class="card glass-panel contact-details-card">
+                        <h3>Vlastina komunitní prostor</h3>
+                        <p class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Bývalá vojenská základna, Vlastina ulice, Praha 6, Česko</span>
+                        </p>
+                        <p class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@vlastina.cz">info@vlastina.cz</a>
+                        </p>
+                        <p class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+420777123456">+420 777 123 456</a>
+                        </p>
+
+                        <hr class="separator">
+
+                        <h3>Provozovatel</h3>
+                        <p><strong>Blackout Paradox z.s.</strong></p>
+                        <p>IČO: 12345678</p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/blackoutparadox" target="_blank" rel="noopener"
+                                aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/blackoutparadox" target="_blank" rel="noopener"
+                                aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://blackoutparadox.com/" target="_blank" rel="noopener"
+                                aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Galerie -->
+        <section id="galerie" class="tab-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Galerie</h2>
+                    <p class="section-subtitle">Pohledy do prostoru, z tréninků a rekonstrukce</p>
+                </div>
+
+                <div class="gallery-section-grid">
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Blackout-Paradox_Galerie_Fireshow.jpg" alt="Fireshow vystoupení"
+                                class="gallery-photo" onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Fireshow a divadlo</h4>
+                            <p>Ukázky z představení divadla Blackout Paradox</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Homepage_main_image.png" alt="Hlavní sál" class="gallery-photo"
+                                onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Taneční sál</h4>
+                            <p>Zázemí sálu s hotovou taneční podlahou</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Vlastina_construction.jpg" alt="Stavba před začátkem"
+                                class="gallery-photo" onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Před rekonstrukcí</h4>
+                            <p>Původní stav vojenského objektu před začátkem prací</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Vlastina_construction_01.jpg" alt="Rekonstrukce podlahy"
+                                class="gallery-photo" onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Budování sálu</h4>
+                            <p>Příprava a pokládka nosného dřevěného roštu</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Vlastina_construction_02.jpg" alt="Dřevěné konstrukce"
+                                class="gallery-photo" onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Práce na detailu</h4>
+                            <p>Stavební práce a detaily dřevěných konstrukcí</p>
+                        </div>
+                    </div>
+                    <div class="gallery-card-item glass-panel">
+                        <div class="gallery-photo-wrapper">
+                            <img src="resources/images/Vlastina_construction_03.jpg" alt="Průběh prací"
+                                class="gallery-photo" onclick="openLightbox(this.src)">
+                        </div>
+                        <div class="gallery-info">
+                            <h4>Dokončovací práce</h4>
+                            <p>Finální úpravy a příprava prostoru k otevření</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Vlastina space. Všechna práva vyhrazena. Vytvořil spolek <a
+                    href="https://blackoutparadox.com/" target="_blank" rel="noopener">Blackout Paradox</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox hidden" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Zvětšený náhled">
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
