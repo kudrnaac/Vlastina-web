@@ -152,3 +152,17 @@ window.closeLightbox = function() {
         document.body.style.overflow = "auto";
     }
 };
+
+// Close lightbox with Escape key
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+        window.closeLightbox();
+    }
+});
+
+// Dynamically apply Lightbox to classes gallery-photo, plan-image
+document.querySelectorAll(".gallery-photo, .plan-image").forEach(img => {
+    img.addEventListener("click", () => {
+        openLightbox(img.src);
+    });
+});
